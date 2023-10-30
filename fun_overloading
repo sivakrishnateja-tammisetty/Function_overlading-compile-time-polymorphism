@@ -2,3 +2,37 @@ POLYMORPHISM- is a key concept in object-oriented programming that allows us to 
 
 FUNCTION OVERLOADING-is a process of creating multiple functions with same function name ,but differ in number of paramteres and type of parameters.
                       It is a compile-time polymorphism.
+
+
+
+
+
+
+
+
+#include<iostream>
+using namespace std;
+class fun_overloading
+{
+    public:
+    void add(int a,int b)
+    {
+        cout<<a+b<<endl;
+    }
+    void add(int a,int b,int c)
+    {
+        cout<<a+b+c<<endl;
+    }
+    void add(float a,float b)
+    {
+        cout<<a+b<<endl;
+    }
+};
+int main ()
+{
+    fun_overloading obj;
+    obj.add(1,2);
+    obj.add(1.1f,2.2f);
+    obj.add(1,2,4);
+  return 0;
+}
