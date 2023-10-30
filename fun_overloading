@@ -1,0 +1,4 @@
+POLYMORPHISM- is a key concept in object-oriented programming that allows us to write code that can work with different types of objects.
+
+FUNCTION OVERLOADING-is a process of creating multiple functions with same function name ,but differ in number of paramteres and type of parameters.
+                      It is a compile-time polymorphism.
