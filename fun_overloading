@@ -36,3 +36,78 @@ int main ()
     obj.add(1,2,4);
   return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+int  Greatest(int ,int,int);
+float Greatest(float,float,float);
+int main()
+{
+    
+    cout<<Greatest(0,32,23)<<endl;
+    cout<<Greatest(1.3f,4.2f,2.4f);
+
+    return 0;
+}
+int Greatest(int a,int b,int c)
+{
+    if(a>=b)
+    {
+        if(a>=c)
+        {
+            return a;
+        }
+        else
+        {
+            return c;
+        }
+    }
+    else
+    {
+        if(b>=c)
+        {
+            return b;
+        }
+        else
+        {
+            return c;
+        }
+    }
+}
+
+float Greatest(float a,float b,float c)
+{
+    if(a>=b)
+    {
+        if(a>=c)
+        {
+            return a;
+        }
+        else
+        {
+            return c;
+        }
+    }
+    else
+    {
+        if(b>=c)
+        {
+            return b;
+        }
+        else
+        {
+            return c;
+        }
+    }
+}
